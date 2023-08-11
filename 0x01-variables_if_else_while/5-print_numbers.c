@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	int n = 48;
+	char num[10] = "0123456789";
+	int n;
 
-	while (n <= 57)
+	for (n = 0; n < 10; n++)
 	{
-		printf(n);
-		n++;
+		putchar(num[n]);
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
